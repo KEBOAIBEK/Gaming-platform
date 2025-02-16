@@ -13,10 +13,13 @@ body{
     color: #fff
 }
 
-
 a {
     text-decoration: none;
     color: inherit;
+}
+
+ul{
+    list-style: none;
 }
 
 img {
@@ -24,6 +27,122 @@ img {
 }
 
 .wrapper{
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26,14,1,1) 35%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+    rgba(26,14,1,1) 35%);
     width: 100%;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+header{
+    padding: 45px 0;
+}
+
+header .logo{
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.nav-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    width: 50%;
+    float: right;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul li{
+    display: inline-block;
+
+}
+
+header nav ul li a{
+    color: #fff ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+header nav ul li:not(.active):not(.btn) a:hover{
+    border-bottom: 5px solid #DC7000;
+}
+
+
+header nav ul li.btn a{
+    border-radius: 6px;
+    background-color: #FA9021;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li.btn a:hover{
+    background-color: #7e4609;
+}
+
+
+/* hero */
+.hero{
+    padding: 120px 0;
+}
+
+.hero--info{
+    width: 530px;
+}
+
+.hero--info h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #E87D0E;
+}
+
+.hero--info h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.hero--info p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero--info .btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    background: linear-gradient(112.96deg, 
+    rgb(250, 131, 5) 1.518%,rgb(251, 158, 60) 117.454%);
+    transition: all 0.3s ease;
+}
+
+.hero--info .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero img{
+    position: absolute;
+    top: 0;
+    right: 90px;
 }
