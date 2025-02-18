@@ -130,6 +130,7 @@ header nav ul li.btn a:hover, .email .block button:hover{
     width: 100%;
 }
 
+
 .hero--info{
     width:50%;
     display: flex;
@@ -156,13 +157,14 @@ header nav ul li.btn a:hover, .email .block button:hover{
     font-size: 16px;
     font-weight: 500;
 }
+
 .box-hero{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-.hero--info .btn{
+
+.hero--info .btn,  .box-about .btn{
     font-size: 16px;
     font-weight: 500;
     color: #fff;
@@ -175,7 +177,7 @@ header nav ul li.btn a:hover, .email .block button:hover{
     transition: all 0.3s ease;
 }
 
-.hero--info .btn:hover{
+.hero--info .btn:hover, .box-about .btn:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -186,7 +188,6 @@ header nav ul li.btn a:hover, .email .block button:hover{
     right: -140px;
     left: auto;
     top: 0;
-
 }
 .mouse{
         width: 1013px;
