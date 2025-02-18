@@ -10,33 +10,121 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #fff
+    color: #fff;
+    overflow-x: hidden;
 }
-
 
 a {
     text-decoration: none;
     color: inherit;
 }
 
+/* *{
+    outline: 1px solid red;
+} */
+
+ul{
+    list-style: none;
+}
+
 img {
     max-width: 100%;
 }
+.header{
+    padding: 0 30px;
+}
 
 .wrapper{
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26,14,1,1) 35%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+    rgba(26,14,1,1) 35%);
     width: 100%;
+}
+.head-section{
+    position: relative;
+    min-height: 100vh;
 }
 
 .container{
-    width: 1440px;
+    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-header{
-    padding: 44px 0;
+.header{
+    padding: 45px;
 }
 
 header .logo{
     text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.nav-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    width: 50%;
+    float: right;
+    z-index: 9;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul li{
+    display: inline-block;
+
+}
+
+header nav ul li a{
+    color: #fff ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+header nav ul li:not(.active):not(.btn) a:hover{
+    border-bottom: 5px solid #DC7000;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #DC7000;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+    left: -14px;
+}
+
+header nav ul li.btn a, .email .block button{
+    border-radius: 6px;
+    color: #fff;
+    background-color: #FA9021;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li.btn a:hover, .email .block button:hover{
+    background-color: #7e4609;
+}
+
+
+/* hero */
+.hero{
+    padding: 120px 0;
+    display: flex;
+    width: 100%;
 }
