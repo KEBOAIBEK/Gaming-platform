@@ -1,0 +1,39 @@
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 160px 0;
+}
+
+.news-title{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.news-text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.news-search{
+    width: 360px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: rgb(28, 20, 15);
+}
+
+.news-input{
+    outline: none;
+    border: none;
+    background: #1C140F;
+}

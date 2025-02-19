@@ -15,8 +15,59 @@
     bottom: 0;
     left: 0;
 }
+/* Map */
+.map-desc{
+    margin: 0 0 75px 0;
+}
 
+.map-title{
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
 
+.map-text{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.map-img{
+    width: 100%;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px 0 140px 0;
+}
+
+.location{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.location-text{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.location-img{
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
 /* form */
 
 .form-text{
@@ -110,3 +161,5 @@
 .contact-btn:hover{
     background-color: #7e4609;
 }
+
+
