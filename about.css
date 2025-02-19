@@ -83,9 +83,11 @@
 /* section */
 .section{
     background: rgb(28, 20, 15);
+    padding: 50px 0;
 }
 
 .section-content{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +95,11 @@
 }
 
 .content-img{
-    position: relative;
-    bottom: 0;
+    width: 100%;
+}
+
+.section-desc{
+    width: 90%;
 }
 
 .section-desc-title{
@@ -111,6 +116,7 @@
     line-height: 157.5%;
     letter-spacing: 0%;
     text-align: left;
+    margin: 15px 0;
 }
 
 .section-desc-description{
@@ -121,6 +127,49 @@
     text-align: left;
 }
 
+
+/* Team section */
+.team{
+    padding: 100px 0 0 0;
+    margin-bottom: 150px;
+}
+
+.team h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.team-blocks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-top: 60px;
+}
+
+.team-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 70px;
+    border-radius: 20px;
+    background: rgb(28, 20, 15);
+}
+
+.team-block h4{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+.team-block p{
+    color: rgb(232, 232, 232);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
 
 @media only screen and (max-width: 380px) {
     .nav-elements{
