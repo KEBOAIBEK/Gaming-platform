@@ -113,7 +113,53 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
-    margin: 20px 0;
+    gap: 30px;
+    margin-bottom: 60px;
 }
 
+.block-click{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.block-btn{
+    background: rgb(35, 81, 245);
+    padding: 10px 35px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.block-time{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.block-text{
+    width: 390px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pink{
+    background-color: #FF8484;
+}
+.orange{
+    background-color: #FF7C32;
+}
+
+.green{
+    background-color: #23A54F;
+}
+
+.violet{
+    background-color: #9921C4;
+}
